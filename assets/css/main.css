@@ -1,0 +1,191 @@
+/* ======================================== */
+/* ======== MAIN */
+
+html,
+body {
+    margin: 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    background-color: #262931;
+}
+
+p {
+    margin: 0;
+    color: #262931;
+    font-size: 1.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ======================================== */
+/* ======== APP */
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+#photo {
+    background: url("../image/photo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    margin: 1vh;
+    border-radius: 15%;
+    filter: grayscale(100%);
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+#mainTitle {
+    font-size: 5em;
+    text-transform: uppercase;
+    padding-bottom: 1vh;
+    color: white;
+}
+
+#subTitle {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #5585b5 !important;
+}
+
+#content {
+    display: flex;
+    margin: 3vh 15vw;
+}
+
+#company {
+    display: flex;
+    flex: 2;
+    margin-right: 3vw;
+    visibility: hidden;
+}
+
+#social {
+    display: flex;
+    flex: 1.5;
+    visibility: hidden;
+}
+
+.subContainer {
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+@media(max-width:1024px) {
+    #app {
+        padding: 0 3vw;
+    }
+
+    #photo {
+        width: 35%;
+        margin: unset;
+        margin-right: 3vw;
+    }
+
+    #title {
+        width: 65%;
+        margin-left: unset;
+    }
+
+    #mainTitle {
+        font-size: 2.5em;
+    }
+
+    #subTitle {
+        font-size: 1.5em;
+    }
+
+    #content {
+        flex-direction: column;
+        margin: 3vh 0;
+        font-size: 0.9em;
+    }
+
+    #company {
+        margin-right: unset;
+        margin-bottom: 1.5vh;
+    }
+
+    .subContainer {
+        padding: 2vh;
+    }
+}
+
+/* ======================================== */
+/* ======== BUTTON */
+
+.listButton {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.button {
+    padding: 2vh;
+    border-radius: 4px;
+    font-size: 1.8em;
+    transition: 0.5s linear;
+}
+
+.button:hover {
+    transform: rotate(-15deg);
+    opacity: 0.7;
+}
+
+@media(max-width:1024px) {
+    .button:hover {
+        transform: unset;
+        opacity: unset;
+    }
+}
+
+/* ======================================== */
+/* ======== COLOR */
+
+.lightblue {
+    background-color: #ADD8E6;
+}
+
+.blue {
+    background-color: #102542
+}
+
+.lightred {
+    background-color: #DB504A;
+}
+
+.red {
+    background: #89023E;
+}
+
+/* ======================================== */
+/* ======== ANIMATION */
+
+.fadeIn {
+    animation: fadeIn 3s linear;
+}
+
+@keyframes fadeIn {
+    from  { opacity: 0; }
+    to      { opacity: 1; }
+}
