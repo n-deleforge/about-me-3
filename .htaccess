@@ -1,9 +1,6 @@
 # Prevent people to visit forbidden folders
 Options +FollowSymlinks -Multiviews -Indexes
 
-# Redirect to ForgeCode
-RedirectMatch "^/$" "https://forgecode.fr/"
-
 # Redirects old URL
 Redirect 301 /my-apps/classManagerGenerator https://n-deleforge.github.io/classManagerGenerator
 Redirect 301 /my-apps/homey https://n-deleforge.github.io/homey
