@@ -13,6 +13,7 @@ p {
     margin: 0;
     color: #262931;
     font-size: 1.5em;
+    text-align: justify;
 }
 
 a {
@@ -34,7 +35,6 @@ a {
 #header {
     display: flex;
     justify-content: center;
-    visibility: hidden;
 }
 
 #photo {
@@ -68,27 +68,27 @@ a {
     color: #5585b5 !important;
 }
 
-#content {
+#container {
     display: flex;
-    margin: 3vh 15vw;
-}
-
-#company {
-    display: flex;
-    flex: 2;
-    margin-right: 3vw;
-    visibility: hidden;
-}
-
-#social {
-    display: flex;
-    flex: 1.5;
-    visibility: hidden;
+    flex-wrap: wrap;
+    margin: 10vh 15vw;
 }
 
 .subContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     padding: 5vh;
     border-radius: 10px;
+    margin: 1vw;
+}
+
+.void {
+    flex-grow: 1;
+}
+
+.elem {
+    visibility: hidden;
 }
 
 @media(max-width:1024px) {
@@ -175,7 +175,7 @@ a {
 }
 
 .red {
-    background: #89023E;
+    background-color: #89023E;
 }
 
 /* ======================================== */
