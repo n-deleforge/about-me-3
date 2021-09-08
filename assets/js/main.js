@@ -12,7 +12,7 @@ async function displayInfo() {
     const containers = get(".elem");
 
     for(let i = 0; i < containers.length; i++) {
-        await showAfter(1000).then(() => {
+        await wait(1000).then(() => {
             containers[i].classList.add("fadeIn");
             containers[i].style.visibility = "visible";
         });
