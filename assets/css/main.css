@@ -93,7 +93,7 @@ a {
 
 @media(max-width:1024px) {
     #app {
-        padding: 0 3vw;
+        padding: 5vw;
     }
 
     #photo {
@@ -115,15 +115,10 @@ a {
         font-size: 1.5em;
     }
 
-    #content {
+    #container {
         flex-direction: column;
-        margin: 3vh 0;
+        margin: 5vh 0;
         font-size: 0.9em;
-    }
-
-    #company {
-        margin-right: unset;
-        margin-bottom: 1.5vh;
     }
 
     .subContainer {
