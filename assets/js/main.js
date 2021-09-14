@@ -5,14 +5,14 @@ displayInfo();
 get("#photo").addEventListener('contextmenu', event => event.preventDefault());
 
 /**
- * Slowly show every elem classes
+ * Slowly show every "containers"
  **/
 
 async function displayInfo() {
     const containers = get(".elem");
 
     for(let i = 0; i < containers.length; i++) {
-        await wait(1000).then(() => {
+        await wait(250).then(() => {
             containers[i].classList.add("fadeIn");
             containers[i].style.visibility = "visible";
         });
