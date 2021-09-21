@@ -55,7 +55,7 @@
             <a class="button elem" target="_blank" rel="noreferrer" href="https://linkedin.com/in/nicolasdeleforge"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
 
-        <script src="https://n-deleforge.github.io/libraries/littleJS.min.js"></script>
+        <script src="https://nicolas-deleforge.fr/libraries/littleJS.min.js"></script>
         <script src="assets/js/main.min.js?v=<?php echo $appVersion; ?>"></script>
 </body>
 </html>
