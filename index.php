@@ -18,19 +18,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php echo $TITLEPAGE; ?></title>
-    <meta name="title" content="<?php echo $TITLEPAGE; ?>">
+    <title><?php echo $TITLE_PAGE; ?></title>
+    <meta name="title" content="<?php echo $TITLE_PAGE; ?>">
     <meta name="description" content="<?php echo $DESCRIPTION; ?>">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo $MAIN_URL; ?>">
-    <meta property="og:title" content="<?php echo $TITLEPAGE; ?>">
+    <meta property="og:title" content="<?php echo $TITLE_PAGE; ?>">
     <meta property="og:description" content="<?php echo $DESCRIPTION; ?>">
     <meta property="og:image" content="<?php echo $BANNER_URL; ?>">
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?php echo $MAIN_URL; ?>">
-    <meta property="twitter:title" content="<?php echo $TITLEPAGE; ?>">
+    <meta property="twitter:title" content="<?php echo $TITLE_PAGE; ?>">
     <meta property="twitter:description" content="<?php echo $DESCRIPTION; ?>">
     <meta property="twitter:image" content="<?php echo $BANNER_URL; ?>">
 
