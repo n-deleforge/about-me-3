@@ -1,0 +1,8 @@
+/* This file is called when JS is disabled */
+
+/* ======================================== */
+/* ======== APP */
+
+.elem {
+    visibility: visible;
+}

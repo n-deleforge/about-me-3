@@ -41,6 +41,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png">
     <link rel="icon" type="image/x-icon" href="assets/image/favicon/favicon.ico">
+
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.min.css?v=<?php echo $APP_VERSION; ?>">
+    </noscript>
 </head>
 
 <body>
