@@ -1,5 +1,5 @@
 <?php
-    $APP_VERSION = "1.0";
+    $APP_VERSION = "1.1";
     $TITLE_PAGE = "Nicolas Deleforge";
     $DESCRIPTION = "Développeur web, sur cette page, je vous présente mes différents réseaux et mon entreprise de réalisation de site internet et d'applications web.";
     $MAIN_URL = "https://nicolas-deleforge.fr";
@@ -35,7 +35,7 @@
     <meta property="twitter:image" content="<?php echo $BANNER_URL; ?>">
 
     <link rel="stylesheet" href="assets/css/main.min.css?v=<?php echo $APP_VERSION; ?>">
-    <link rel="stylesheet" href="assets/css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/all.min.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
@@ -60,8 +60,9 @@
 
         <div id="buttonList">
             <?php 
-                foreach($LINKS as $link)
+                foreach($LINKS as $link) {
                     echo '<a class="button elem" target="_blank" rel="noreferrer" href="' . $link[0] . '"><i class="' . $link[1] . '"></i> ' . $link[2] . '</a>';
+                }
             ?>
         </div>
 
